@@ -1,0 +1,29 @@
+{
+  "name": "facerecognitionapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "8.10.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "clarifai": "^2.9.0",
+    "cors": "^2.8.5",
+    "express": "",
+    "heroku": "^7.22.4",
+    "knex": "^0.16.3",
+    "pg": "^7.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
