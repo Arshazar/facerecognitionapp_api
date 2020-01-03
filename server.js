@@ -6,7 +6,8 @@ const knex = require('knex');
 
 const db = knex({
   client: 'pg',
-  connection: process.env.POSTGRES_URI
+  connectionString : process.env.DATABASE_URI,
+  ssl: true
 });
 const app = express();
 
